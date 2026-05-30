@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8FAFC;
+}
+
+h3 {
+    margin: 0px;
+
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h5 {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-image: url(https://th.bing.com/th/id/R.01556d9f0da7e3728bb42ffc46ee1e09?rik=r6ezS1E56Ppmsw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-4fBptx6S8R4%2fToyreMY_NPI%2fAAAAAAAAABM%2f-D7cFQFfRw8%2fs1600%2fGEDC0828.JPG&ehk=Jv99Ot%2bF6WefjJzyLrJzXHg4t9kNb%2b3A340LXA8%2bFOs%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.mogi {
+    padding: 20px;
+    height: 550px;
+    background-image: url(Mogi_guaçu_4k.jpg);
+    background-position: 50% 40%;
+    background-size: cover;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: white;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}
+
+.escolas header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.escola1 header {
+    background-image: url(https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2020/10/etec-mogi-guacu.jpg);
+}
+
+.escola2 header {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.ABVNS6JyB0EzBMUa4rqouQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-position: 50% 70%;
+    background-size: cover;
+}
+
+.escola3 header {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.uujs17MPZfAD5TGYKTIMeAHaFH?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-position: center;
+}
+
+
+
+.escolas {
+    margin: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #F59E0B;
+    border-radius: 8px 8px 0px 0px;
+    border: 3px solid #fbbf24;
+    transition: 0.3s;
+
+}
+
+.escolas:hover {
+    transform: translateY(-10px);
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+
+.listas {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #111827;
+
+}
+
+.descriçao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #111827;
+    border-radius: 4px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.button button {
+    height: 60px;
+    width: 400px;
+    letter-spacing: 3px;
+    background: #2563EB;
+    border-radius: 6px;
+    border: 3px solid #1a42af ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    transition: 0.3s;
+}
+
+.button button:hover {
+    background: #1D4ED8;
+    transition: 0.3s;
+    transform: scale(1.2);
+    font-size: larger;
+    border: 4px solid #3667ee ;
+}
